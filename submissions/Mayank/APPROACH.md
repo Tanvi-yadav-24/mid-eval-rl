@@ -63,7 +63,8 @@ This contrasts with Thompson Sampling, where tuning the prior is opaque: "should
 ---
 
 ## **How to Reproduce**
-
-cd started  
-python local\_test.py policy.py
+```bash
+cd starter
+python local_test.py "../submissions/Mayank/policy.py"
+```
 
