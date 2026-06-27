@@ -35,7 +35,7 @@ This contrasts with Thompson Sampling, where tuning the prior is opaque: "should
 | Approach | Local avg clicks | Notes |
 | ----- | ----- | ----- |
 | Thompson Sampling (Beta priors) | 477.3 | Sensitive to prior choice; beta(1,1) underperforms |
-| Thompson Sampling (tuned priors) | 523.2 | with (1,36), seemed to perform well in local tests but not so good in online test cases and not very predictable in changes |
+| Thompson Sampling (tuned priors) | 523.2 | with (1,36), seemed to perform well in local tests but not so good in online test cases and not very predictable and easy to changes |
 | UCB (constant \= 2\) | 382.9 | Bonus is too large compared to the values till the end, ends up with too much exploration. |
 | UCB (constant \= 0.5) | 439.8 | Better than before, but could be improved |
 | UCB (constant \= 0.05) | 511.4 | Decent but leaves clicks on table |
