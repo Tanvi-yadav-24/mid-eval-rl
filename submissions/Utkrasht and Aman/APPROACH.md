@@ -1,4 +1,4 @@
-# 🧠 Approach: Bayesian UCB (Beta-Bernoulli via Gaussian Approximation)
+# Approach: Bayesian UCB (Beta-Bernoulli via Gaussian Approximation)
 
 ## Algorithm chosen
 **Bayesian UCB** — a combination of Bayesian posterior inference (Beta-Bernoulli conjugate model) with an upper-confidence-bound selection rule, engineered to run purely in `numpy`.
